@@ -24,8 +24,3 @@ server.get('/blog/\*', function redirect(req, res){
 {% endhighlight %}
 
 Hopefully with the ease of not having to google every step to write a post, Ghost has given me to just login and start writing I won't put off posting to a semi-annual event.
-
-[octopress]: https://jekyllrb.com/docs/home
-[jekyll]: https://github.com/jekyll/jekyll
-[github-pages]: https://talk.jekyllrb.com/
-[ghost]: https://ghost.io
