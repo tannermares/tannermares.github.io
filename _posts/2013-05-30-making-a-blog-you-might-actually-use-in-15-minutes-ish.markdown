@@ -5,9 +5,9 @@ date:   2013-05-30 00:00:00 -0700
 categories: amanda blogs walkthroughs
 ---
 
-Amanda was first introduced to me on a ruby5 podcast while driving to work one morning. I had heard of a blog engine that used Dropbox (scriptogr.am), but I always like the idea of making something myself. It was a relatively painless setup, though there were a couple gotcha's that I would like to write down here, even if only for my own sake.  Now to introduce her.
-A simple blog engine powered by Camping.
-Posts are written in Markdown, saved on Dropbox and stored in Redis.
+[Amanda](https://github.com/atog/amanda) was first introduced to me on a [ruby5](http://ruby5.envylabs.com/) podcast while driving to work one morning. I had heard of a blog engine that used Dropbox ([scriptogr.am](http://scriptogr.am/)), but I always like the idea of making something myself. It was a relatively painless setup, though there were a couple gotcha's that I would like to write down here, even if only for my own sake.  Now to introduce her.
+A simple blog engine powered by [Camping](http://camping.io/).
+Posts are written in [Markdown](http://daringfireball.net/projects/markdown/), saved on [Dropbox](https://www.dropbox.com/) and stored in [Redis](http://redis.io/).
 
 ### Amanda
 
@@ -16,19 +16,20 @@ Something I really liked about Amanda, which was the main reason I am talking ab
 ### Before you Begin
 
 This stuff should already be done. If not, there are a plethora of posts about how to get these services setup. These are just a couple of things you need for Amanda to work.
-Install Git ( with HomeBrew brew install git )
-Install Ruby 2.0 using either rbenv or RVM
-Setup a Heroku account and install the Heroku Toolbelt.
-Create a Dropbox account.
+
+- [Install Git](http://git-scm.com/) ( with [HomeBrew](http://brew.sh/) brew install git )
+- Install Ruby 2.0 using either [rbenv](http://octopress.org/docs/setup/rbenv) or [RVM](http://octopress.org/docs/setup/rvm)
+- Setup a [Heroku](https://devcenter.heroku.com/articles/quickstart) account and install the Heroku Toolbelt.
+- Create a [Dropbox](https://www.dropbox.com/) account.
 
 ### DropBox Setup
 
-Create Dropbox App
-Name your app
-Choose "core"
-Make sure "App folder" is selected
-Click "create app"
-Notate your app key and secret on the next screen
+- [Create Dropbox App](https://www.dropbox.com/developers/apps/create)
+- Name your app
+- Choose "core"
+- Make sure "App folder" is selected
+- Click "create app"
+- Notate your app key and secret on the next screen
 
 ### Ask Amanda Out
 
@@ -75,4 +76,4 @@ Hello World, first post!
 ### Refresh
 
 This will sync up your new posts to the redis database and redirect to the home page. Woot! You're done! Well, besides converting the dutch text and maybe adjusting some styles.
-I hope this post made it as simple as possible to get your Amanda blog up and running. Be advised, this framework is still in its infancy. There is a minor bug that only occurs when a single post exists (which I have a pull-request for). Please contribute to this project with me to make it even more awesome! Thanks!
+I hope this post made it as simple as possible to get your Amanda blog up and running. Be advised, this framework is still in its infancy. There is a minor bug that only occurs when a single post exists (which I have a [pull-request](https://github.com/atog/amanda/pull/1) for). Please contribute to this project with me to make it even more awesome! Thanks!

@@ -29,4 +29,4 @@ paragraphs.each do |paragraph|
 end
 ```
 
-If you havn't read it yet, checkout github's ruby style guide for more best practices!
+If you havn't read it yet, checkout github's [ruby style guide](https://github.com/styleguide/ruby) for more best practices!
